@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  QuestionViewController.swift
 //  Personal Quiz
 //
 //  Created by Nikolay Naumenkov on 30/06/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class QuestionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }

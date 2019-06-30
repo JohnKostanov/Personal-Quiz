@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		131171D122C8CF2100C55C36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131171D022C8CF2100C55C36 /* AppDelegate.swift */; };
-		131171D322C8CF2100C55C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131171D222C8CF2100C55C36 /* ViewController.swift */; };
+		131171D322C8CF2100C55C36 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131171D222C8CF2100C55C36 /* WelcomeViewController.swift */; };
 		131171D622C8CF2100C55C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131171D422C8CF2100C55C36 /* Main.storyboard */; };
 		131171D822C8CF2300C55C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131171D722C8CF2300C55C36 /* Assets.xcassets */; };
 		131171DB22C8CF2300C55C36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131171D922C8CF2300C55C36 /* LaunchScreen.storyboard */; };
+		131171E722C8D2C500C55C36 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131171E622C8D2C500C55C36 /* QuestionViewController.swift */; };
+		131171EA22C8D2FE00C55C36 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131171E922C8D2FE00C55C36 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		131171CD22C8CF2100C55C36 /* Personal Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		131171D022C8CF2100C55C36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		131171D222C8CF2100C55C36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		131171D222C8CF2100C55C36 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		131171D522C8CF2100C55C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		131171D722C8CF2300C55C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		131171DA22C8CF2300C55C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		131171DC22C8CF2300C55C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		131171E622C8D2C500C55C36 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		131171E922C8D2FE00C55C36 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +78,9 @@
 		131171E322C8CF8B00C55C36 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				131171D222C8CF2100C55C36 /* ViewController.swift */,
+				131171D222C8CF2100C55C36 /* WelcomeViewController.swift */,
+				131171E622C8D2C500C55C36 /* QuestionViewController.swift */,
+				131171E922C8D2FE00C55C36 /* ResultsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -167,8 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				131171D322C8CF2100C55C36 /* ViewController.swift in Sources */,
+				131171D322C8CF2100C55C36 /* WelcomeViewController.swift in Sources */,
 				131171D122C8CF2100C55C36 /* AppDelegate.swift in Sources */,
+				131171E722C8D2C500C55C36 /* QuestionViewController.swift in Sources */,
+				131171EA22C8D2FE00C55C36 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
