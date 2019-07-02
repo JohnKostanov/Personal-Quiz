@@ -137,6 +137,9 @@
                                                 <state key="normal" title="Для работы">
                                                     <color key="titleColor" red="0.56470588235294117" green="0.25490196078431371" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="singleButtonPressed:" destination="cPO-8N-mIg" eventType="touchUpInside" id="gE2-h4-3gc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kym-in-4yx">
                                                 <rect key="frame" x="0.0" y="48" width="240" height="30"/>
@@ -144,6 +147,9 @@
                                                 <state key="normal" title="Для школы / университета">
                                                     <color key="titleColor" red="0.56470588235294117" green="0.25490196078431371" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="singleButtonPressed:" destination="cPO-8N-mIg" eventType="touchUpInside" id="Oht-3v-Ppl"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pql-ew-4fk">
                                                 <rect key="frame" x="0.0" y="96" width="240" height="30"/>
@@ -151,6 +157,9 @@
                                                 <state key="normal" title="Для путешествий">
                                                     <color key="titleColor" red="0.56470588235294117" green="0.25490196078431371" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="singleButtonPressed:" destination="cPO-8N-mIg" eventType="touchUpInside" id="wAZ-pt-TF6"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDg-uh-c2q">
                                                 <rect key="frame" x="0.0" y="144" width="240" height="30"/>
@@ -158,6 +167,9 @@
                                                 <state key="normal" title="Для общего понимания">
                                                     <color key="titleColor" red="0.56470588235294117" green="0.25490196078431371" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="singleButtonPressed:" destination="cPO-8N-mIg" eventType="touchUpInside" id="wi2-ZP-6Kg"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -189,6 +201,9 @@
                                                 <state key="normal" title="Ответить">
                                                     <color key="titleColor" red="0.96078431369999995" green="0.66666666669999997" blue="0.1058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="rangedButtonPressed" destination="cPO-8N-mIg" eventType="touchUpInside" id="uR8-D3-IxH"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -204,7 +219,7 @@
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aoY-kz-dZ6">
+                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aoY-kz-dZ6">
                                                         <rect key="frame" x="191" y="0.0" width="51" height="31"/>
                                                     </switch>
                                                 </subviews>
@@ -218,7 +233,7 @@
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="osh-vC-tHP">
+                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="osh-vC-tHP">
                                                         <rect key="frame" x="191" y="0.0" width="51" height="31"/>
                                                     </switch>
                                                 </subviews>
@@ -232,7 +247,7 @@
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uiG-Qq-ehv">
+                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uiG-Qq-ehv">
                                                         <rect key="frame" x="191" y="0.0" width="51" height="31"/>
                                                     </switch>
                                                 </subviews>
@@ -246,7 +261,7 @@
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xba-l7-Nlv">
+                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xba-l7-Nlv">
                                                         <rect key="frame" x="191" y="0.0" width="51" height="31"/>
                                                     </switch>
                                                 </subviews>
@@ -256,6 +271,9 @@
                                                 <state key="normal" title="Ответить">
                                                     <color key="titleColor" red="0.96078431372549022" green="0.66666666666666663" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="multipleButtonPressed" destination="cPO-8N-mIg" eventType="touchUpInside" id="5NS-PK-5dC"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <variation key="heightClass=compact-widthClass=compact" spacing="8"/>
@@ -302,20 +320,25 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qkO-XS-8mQ"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Вопрос № 1 из 3" id="TpV-vJ-Y5X">
-                        <barButtonItem key="rightBarButtonItem" title="Results" id="XoQ-Wt-w4L">
-                            <connections>
-                                <action selector="resultsButtonPressed:" destination="cPO-8N-mIg" id="KXw-EH-qMh"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Вопрос № 1 из 3" id="TpV-vJ-Y5X"/>
                     <connections>
                         <outlet property="cardView" destination="Dxg-YU-igH" id="6QD-HA-96G"/>
                         <outlet property="multipleStackView" destination="P8V-9p-pcy" id="fSC-Nd-vB8"/>
                         <outlet property="progressView" destination="Qr1-lO-6b5" id="3jd-iM-h1H"/>
                         <outlet property="questionLabel" destination="9ez-GH-oaH" id="fGn-ZI-gRC"/>
                         <outlet property="rangeStackView" destination="Ft5-Hz-L77" id="Rl5-Zs-nKZ"/>
+                        <outlet property="rangedSlider" destination="lEu-9p-W4i" id="hkc-PV-LSb"/>
                         <outlet property="singleStackView" destination="AdI-gK-NqN" id="KVG-0U-oJ9"/>
+                        <outletCollection property="multipleLabels" destination="3cb-go-gV8" collectionClass="NSMutableArray" id="Wcv-bH-JgS"/>
+                        <outletCollection property="multipleLabels" destination="GX4-zB-vwa" collectionClass="NSMutableArray" id="Ld1-1L-ctA"/>
+                        <outletCollection property="multipleLabels" destination="Lak-XU-gJp" collectionClass="NSMutableArray" id="hZU-AV-cDk"/>
+                        <outletCollection property="multipleLabels" destination="yir-wO-r23" collectionClass="NSMutableArray" id="IUs-MT-waj"/>
+                        <outletCollection property="rangedLabels" destination="rKs-sT-cnH" collectionClass="NSMutableArray" id="0i4-Wn-NpA"/>
+                        <outletCollection property="rangedLabels" destination="oQe-dQ-9eb" collectionClass="NSMutableArray" id="V8c-tN-IXe"/>
+                        <outletCollection property="singleButtons" destination="U8q-fl-gtL" collectionClass="NSMutableArray" id="Avt-yM-u3f"/>
+                        <outletCollection property="singleButtons" destination="kym-in-4yx" collectionClass="NSMutableArray" id="UCS-60-TBx"/>
+                        <outletCollection property="singleButtons" destination="Pql-ew-4fk" collectionClass="NSMutableArray" id="AyA-xA-d01"/>
+                        <outletCollection property="singleButtons" destination="cDg-uh-c2q" collectionClass="NSMutableArray" id="SIl-11-hJr"/>
                         <segue destination="C53-WK-QIw" kind="show" identifier="showResults" id="oAg-ep-J8u"/>
                     </connections>
                 </viewController>
@@ -407,7 +430,9 @@
                     </navigationItem>
                     <connections>
                         <outlet property="cardImage" destination="ENc-9q-xnp" id="pK1-Me-2WA"/>
+                        <outlet property="definitionLabel" destination="PPE-9H-iJd" id="Eao-C3-O3g"/>
                         <outlet property="moreButton" destination="s1A-mW-ogv" id="W2r-JC-lj1"/>
+                        <outlet property="titleLabel" destination="VIa-vv-M5J" id="o4A-1b-ALL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p3g-OH-3Tx" userLabel="First Responder" sceneMemberID="firstResponder"/>
