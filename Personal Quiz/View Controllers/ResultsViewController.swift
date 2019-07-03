@@ -34,4 +34,22 @@ class ResultsViewController: UIViewController {
         titleLabel.text = title
         definitionLabel.text = definition
     }
+
+    @IBAction func moreButtonPressed() {
+        openUrl("https://www.english-language.ru/programs/general/")
+    }
+
+    private func openUrl(_ url: String) {
+        if let url = URL(string: url) {
+            openUrl(url)
+        }
+    }
+
+    private func openUrl(_ url: URL) {
+        guard UIApplication.shared.canOpenURL(url) else {
+            return
+        }
+
+        UIApplication.shared.open(url)
+    }
 }

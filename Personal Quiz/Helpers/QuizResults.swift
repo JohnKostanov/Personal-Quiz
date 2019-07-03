@@ -18,17 +18,16 @@ class QuizResults {
             return nil
         }
 
-        let answerTypes = responses.map { $0.type }
-        var answerCount = [AnswerType: Int]()
+        let levelTypes = responses.map { $0.type }
+        var levelCount = [LevelType: Int]()
 
-        answerTypes.forEach { answerType in
-            answerCount[answerType] = (answerCount[answerType] ?? 0) + 1
+        levelTypes.forEach { levelType in
+            levelCount[levelType] = (levelCount[levelType] ?? 0) + 1
         }
 
-        let sortedCount = answerCount.sorted { $0.value > $1.value }
-        let title = sortedCount.first!.key.title
-        let definition = sortedCount.first!.key.definition
+        let sortedCount = levelCount.sorted { $0.value > $1.value }
+        let result = sortedCount.first!.key.resultDefinition
 
-        return (title, definition)
+        return (result.title, result.definition)
     }
 }

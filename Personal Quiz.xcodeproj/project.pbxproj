@@ -18,9 +18,10 @@
 		13F240E922CBE04900CDCBFF /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F240E822CBE04900CDCBFF /* Question.swift */; };
 		13F240EB22CBE08C00CDCBFF /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F240EA22CBE08C00CDCBFF /* ResponseType.swift */; };
 		13F240ED22CBE1E600CDCBFF /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F240EC22CBE1E600CDCBFF /* Answer.swift */; };
-		13F240EF22CBE25700CDCBFF /* AnswerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F240EE22CBE25700CDCBFF /* AnswerType.swift */; };
+		13F240EF22CBE25700CDCBFF /* LevelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F240EE22CBE25700CDCBFF /* LevelType.swift */; };
 		13F240F222CBE4A500CDCBFF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F240F122CBE4A500CDCBFF /* DataManager.swift */; };
 		13F240F422CBF08800CDCBFF /* QuizResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F240F322CBF08800CDCBFF /* QuizResults.swift */; };
+		13F240F622CD2F5600CDCBFF /* ResultDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F240F522CD2F5600CDCBFF /* ResultDefinition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +38,10 @@
 		13F240E822CBE04900CDCBFF /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		13F240EA22CBE08C00CDCBFF /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
 		13F240EC22CBE1E600CDCBFF /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
-		13F240EE22CBE25700CDCBFF /* AnswerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerType.swift; sourceTree = "<group>"; };
+		13F240EE22CBE25700CDCBFF /* LevelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelType.swift; sourceTree = "<group>"; };
 		13F240F122CBE4A500CDCBFF /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		13F240F322CBF08800CDCBFF /* QuizResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResults.swift; sourceTree = "<group>"; };
+		13F240F522CD2F5600CDCBFF /* ResultDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDefinition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +126,8 @@
 				13F240E822CBE04900CDCBFF /* Question.swift */,
 				13F240EA22CBE08C00CDCBFF /* ResponseType.swift */,
 				13F240EC22CBE1E600CDCBFF /* Answer.swift */,
-				13F240EE22CBE25700CDCBFF /* AnswerType.swift */,
+				13F240EE22CBE25700CDCBFF /* LevelType.swift */,
+				13F240F522CD2F5600CDCBFF /* ResultDefinition.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				131171D322C8CF2100C55C36 /* WelcomeViewController.swift in Sources */,
+				13F240F622CD2F5600CDCBFF /* ResultDefinition.swift in Sources */,
 				13F240F222CBE4A500CDCBFF /* DataManager.swift in Sources */,
 				13F240E622CBDF8F00CDCBFF /* QuizLogic.swift in Sources */,
 				131171D122C8CF2100C55C36 /* AppDelegate.swift in Sources */,
@@ -219,7 +223,7 @@
 				131171E722C8D2C500C55C36 /* QuestionViewController.swift in Sources */,
 				131171EA22C8D2FE00C55C36 /* ResultsViewController.swift in Sources */,
 				13F240EB22CBE08C00CDCBFF /* ResponseType.swift in Sources */,
-				13F240EF22CBE25700CDCBFF /* AnswerType.swift in Sources */,
+				13F240EF22CBE25700CDCBFF /* LevelType.swift in Sources */,
 				13F240ED22CBE1E600CDCBFF /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

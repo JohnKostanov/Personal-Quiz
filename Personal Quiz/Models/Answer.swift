@@ -8,5 +8,5 @@
 
 struct Answer {
     var text: String
-    var type: AnswerType
+    var type: LevelType
 }
