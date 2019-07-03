@@ -128,7 +128,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="AdI-gK-NqN">
-                                        <rect key="frame" x="20" y="155" width="240" height="174"/>
+                                        <rect key="frame" x="20" y="227" width="240" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8q-fl-gtL">
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="30"/>
@@ -137,39 +137,6 @@
                                                 <state key="normal" title="Для работы">
                                                     <color key="titleColor" red="0.56470588235294117" green="0.25490196078431371" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="singleButtonPressed:" destination="cPO-8N-mIg" eventType="touchUpInside" id="gE2-h4-3gc"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kym-in-4yx">
-                                                <rect key="frame" x="0.0" y="48" width="240" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="Для школы / университета">
-                                                    <color key="titleColor" red="0.56470588235294117" green="0.25490196078431371" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="singleButtonPressed:" destination="cPO-8N-mIg" eventType="touchUpInside" id="Oht-3v-Ppl"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pql-ew-4fk">
-                                                <rect key="frame" x="0.0" y="96" width="240" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="Для путешествий">
-                                                    <color key="titleColor" red="0.56470588235294117" green="0.25490196078431371" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="singleButtonPressed:" destination="cPO-8N-mIg" eventType="touchUpInside" id="wAZ-pt-TF6"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDg-uh-c2q">
-                                                <rect key="frame" x="0.0" y="144" width="240" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="Для общего понимания">
-                                                    <color key="titleColor" red="0.56470588235294117" green="0.25490196078431371" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="singleButtonPressed:" destination="cPO-8N-mIg" eventType="touchUpInside" id="wi2-ZP-6Kg"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -207,67 +174,31 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="P8V-9p-pcy">
-                                        <rect key="frame" x="20" y="124.5" width="240" height="235"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="P8V-9p-pcy">
+                                        <rect key="frame" x="20" y="201.5" width="240" height="81"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="kYf-4v-5EQ">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Vgx-fs-71v" userLabel="Content Stack View">
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="31"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Для работы" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cb-go-gV8">
-                                                        <rect key="frame" x="0.0" y="0.0" width="171" height="31"/>
-                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aoY-kz-dZ6">
-                                                        <rect key="frame" x="191" y="0.0" width="51" height="31"/>
-                                                    </switch>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="kYf-4v-5EQ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="31"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Для работы" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cb-go-gV8">
+                                                                <rect key="frame" x="0.0" y="0.0" width="171" height="31"/>
+                                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aoY-kz-dZ6">
+                                                                <rect key="frame" x="191" y="0.0" width="51" height="31"/>
+                                                            </switch>
+                                                        </subviews>
+                                                    </stackView>
                                                 </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="lYz-ZD-tjh">
-                                                <rect key="frame" x="0.0" y="51" width="240" height="31"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Для школы / университета" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GX4-zB-vwa">
-                                                        <rect key="frame" x="0.0" y="0.0" width="171" height="31"/>
-                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="osh-vC-tHP">
-                                                        <rect key="frame" x="191" y="0.0" width="51" height="31"/>
-                                                    </switch>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="m2q-2Z-bfN">
-                                                <rect key="frame" x="0.0" y="102" width="240" height="31"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Для путешествий" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lak-XU-gJp">
-                                                        <rect key="frame" x="0.0" y="0.0" width="171" height="31"/>
-                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uiG-Qq-ehv">
-                                                        <rect key="frame" x="191" y="0.0" width="51" height="31"/>
-                                                    </switch>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="KHQ-uN-IkP">
-                                                <rect key="frame" x="0.0" y="153" width="240" height="31"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Для общего понимания" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yir-wO-r23">
-                                                        <rect key="frame" x="0.0" y="0.0" width="171" height="31"/>
-                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xba-l7-Nlv">
-                                                        <rect key="frame" x="191" y="0.0" width="51" height="31"/>
-                                                    </switch>
-                                                </subviews>
+                                                <variation key="heightClass=compact-widthClass=compact" spacing="8"/>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCS-GR-CQz">
-                                                <rect key="frame" x="0.0" y="204" width="240" height="31"/>
+                                                <rect key="frame" x="0.0" y="51" width="240" height="30"/>
                                                 <state key="normal" title="Ответить">
                                                     <color key="titleColor" red="0.96078431372549022" green="0.66666666666666663" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -323,22 +254,15 @@
                     <navigationItem key="navigationItem" title="Вопрос № 1 из 3" id="TpV-vJ-Y5X"/>
                     <connections>
                         <outlet property="cardView" destination="Dxg-YU-igH" id="6QD-HA-96G"/>
+                        <outlet property="multipleContentStackView" destination="Vgx-fs-71v" id="tOK-4h-cIY"/>
                         <outlet property="multipleStackView" destination="P8V-9p-pcy" id="fSC-Nd-vB8"/>
                         <outlet property="progressView" destination="Qr1-lO-6b5" id="3jd-iM-h1H"/>
                         <outlet property="questionLabel" destination="9ez-GH-oaH" id="fGn-ZI-gRC"/>
                         <outlet property="rangeStackView" destination="Ft5-Hz-L77" id="Rl5-Zs-nKZ"/>
                         <outlet property="rangedSlider" destination="lEu-9p-W4i" id="hkc-PV-LSb"/>
                         <outlet property="singleStackView" destination="AdI-gK-NqN" id="KVG-0U-oJ9"/>
-                        <outletCollection property="multipleLabels" destination="3cb-go-gV8" collectionClass="NSMutableArray" id="Wcv-bH-JgS"/>
-                        <outletCollection property="multipleLabels" destination="GX4-zB-vwa" collectionClass="NSMutableArray" id="Ld1-1L-ctA"/>
-                        <outletCollection property="multipleLabels" destination="Lak-XU-gJp" collectionClass="NSMutableArray" id="hZU-AV-cDk"/>
-                        <outletCollection property="multipleLabels" destination="yir-wO-r23" collectionClass="NSMutableArray" id="IUs-MT-waj"/>
                         <outletCollection property="rangedLabels" destination="rKs-sT-cnH" collectionClass="NSMutableArray" id="0i4-Wn-NpA"/>
                         <outletCollection property="rangedLabels" destination="oQe-dQ-9eb" collectionClass="NSMutableArray" id="V8c-tN-IXe"/>
-                        <outletCollection property="singleButtons" destination="U8q-fl-gtL" collectionClass="NSMutableArray" id="Avt-yM-u3f"/>
-                        <outletCollection property="singleButtons" destination="kym-in-4yx" collectionClass="NSMutableArray" id="UCS-60-TBx"/>
-                        <outletCollection property="singleButtons" destination="Pql-ew-4fk" collectionClass="NSMutableArray" id="AyA-xA-d01"/>
-                        <outletCollection property="singleButtons" destination="cDg-uh-c2q" collectionClass="NSMutableArray" id="SIl-11-hJr"/>
                         <segue destination="C53-WK-QIw" kind="show" identifier="showResults" id="oAg-ep-J8u"/>
                     </connections>
                 </viewController>
