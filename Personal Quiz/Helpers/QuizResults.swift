@@ -26,7 +26,7 @@ class QuizResults {
         }
 
         let sortedCount = levelCount.sorted { $0.value > $1.value }
-        let result = sortedCount.first!.key.resultDefinition
+        let result = DataManager.getResult(for: sortedCount.first!.key)
 
         return (result.title, result.definition)
     }
